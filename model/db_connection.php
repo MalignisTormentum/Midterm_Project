@@ -1,7 +1,7 @@
 <?php
     try{
         $db = new PDO( 
-            'mysql:host=acw2033ndw0at1t7.cbetxkdyhwsb.us-east-1.rds.amazonaws.com;dbname=on12dvmjkrfkmayo;',
+            'mysql://aahwcrj0o404oo39:ser6bfs6wol01zal@acw2033ndw0at1t7.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/on12dvmjkrfkmayo',
             'aahwcrj0o404oo39', 
             'ser6bfs6wol01zal'
         );
